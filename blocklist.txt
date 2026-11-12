@@ -1,0 +1,69 @@
+! Instagram + Threads DNS blocklist
+! Maintained by repository owner. Baseline: 2026-11-12.
+! AdGuard DNS / AdGuard Home syntax
+! WARNING: Aggressive Facebook API rules near the bottom may affect Facebook/Messenger.
+
+! Core Instagram and media
+||instagram.com^
+||instagr.am^
+||cdninstagram.com^
+||igcdn.com^
+||ig.me^
+||igtv.com^
+
+! Historical static infrastructure
+||instagramstatic-a.akamaihd.net^
+||instagramstatic-a.akamaihd.net.edgesuite.net^
+
+! Threads
+||threads.com^
+||threads.net^
+
+! Instagram brand / related names (some legacy; ownership and activity unverified)
+||instagram-brand.com^
+||instagram-engineering.com^
+||instagram-help.com^
+||instagram-press.com^
+||instagram-press.net^
+||instagrampartners.com^
+||instagramphoto.com^
+||instagramtips.com^
+||oninstagram.com^
+
+! Third-party / lookalike names: not required for core app blocking
+||instagainer.com^
+||instagda.com^
+||instagify.com^
+||instagmania.com^
+||instagor.com^
+||instagramhashtags.net^
+||instagramhilecim.com^
+||instagramhilesi.org^
+||instagramium.com^
+||instagramizlenme.com^
+||instagramkusu.com^
+||instagramsepeti.com^
+||instagramtakipcisatinal.net^
+||instagramtakiphilesi.com^
+||instagramtr.com^
+||instagy.com^
+||instagramci.com^
+||instagramcn.com^
+||instagramdi.com^
+||instagramlogin.com^
+||instagramm.com^
+||instagramn.com^
+||instagramq.com^
+||instagran.com^
+||instagranm.com^
+||instagrem.com^
+||instagrm.com^
+||instagtram.com^
+||online-instagram.com^
+||onlineinstagram.com^
+||web-instagram.net^
+
+! AGGRESSIVE: shared Meta endpoints (affects other Meta services)
+||edge-mqtt.facebook.com^
+||graph.facebook.com^
+||b-graph.facebook.com^
